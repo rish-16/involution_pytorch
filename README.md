@@ -37,8 +37,8 @@ y = inv(x) # [1, 16, 32, 32]
 
 ## Contributing
 
-If I've made any errors anywhere in the implementation, please do let me know by raising an issue or PR!
+If I've made any errors anywhere in the implementation, please do let me know by raising an issue. If there's any cool addition you want to introduce, all PRs appreciated!
 
 ## License
 
-[MIT]()
+[MIT](https://github.com/rish-16/involution_pytorch/blob/main/LICENSE)
