@@ -6,7 +6,7 @@ with open('README.md') as readme_file:
 setup(
   name = 'involution_pytorch',
   packages = find_packages(exclude=[]),
-  version = '0.0.2',
+  version = '0.0.2.2',
   license='MIT',
   description = 'Involution Operation - Pytorch',
   long_description_content_type="text/markdown",

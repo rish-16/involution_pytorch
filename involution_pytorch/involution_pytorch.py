@@ -20,12 +20,12 @@ class Inv2d(nn.Module):
         self.group_ch = group_ch
         self.groups = channels // self.group_ch
         self.dilation = 1
-        self.padding = (kernel_size-1) // 2
+        self.padding = (kernel_size - 1) // 2 
 
         self.out = nn.AvgPool2d(stride, stride) if self.stride > 1 else nn.Identity()
         self.reduce = nn.Conv2d(channels, channels // self.red_ratio, kernel_size=1)
         self.span = nn.Conv2d(channels // self.red_ratio, kernel_size**2 * self.groups, kernel_size=1, stride=1)
-        self.unfold = nn.Unfold(kernel_size, 1, self.padding, self.stride)
+        self.unfold = nn.Unfold(kernel_size, self.dilation, self.padding, self.stride)
 
         # dynamic kernel generation function
         '''
