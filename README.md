@@ -5,7 +5,7 @@ Unofficial PyTorch implementation of "Involution: Inverting the Inherence of Con
 
 [[`abs`](https://arxiv.org/abs/2103.06255), [`pdf`](https://arxiv.org/pdf/2103.06255.pdf), [`Yannic's Video`](https://www.youtube.com/watch?v=pH2jZun8MoY)]
 
-<img src="assets/model.png" >
+<img src="https://github.com/rish-16/involution_pytorch/blob/main/assets/model.png?raw=true" >
 
 ## Installation
 

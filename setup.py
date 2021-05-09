@@ -1,12 +1,16 @@
 from setuptools import setup, find_packages
 
+with open('README.md') as readme_file:
+    README = readme_file.read()
+
 setup(
   name = 'involution_pytorch',
   packages = find_packages(exclude=[]),
-  version = '0.0.1',
+  version = '0.0.2',
   license='MIT',
   description = 'Involution Operation - Pytorch',
-  long_description = 'Unofficial wrapper around Involution wrapper by HKUST, ByteDance AI, and Peking University',
+  long_description_content_type="text/markdown",
+  long_description=README,
   author = 'Rishabh Anand',
   author_email = 'mail.rishabh.anand@gmail.com',
   url = 'https://github.com/rish-16/involution_pytorch',
