@@ -1,8 +1,6 @@
 import torch
 import torch.nn as nn
-from torch import einsum
 import torch.nn.functional as F
-from einops import rearrange
 
 '''
 Unofficial implementation of the Involution operation
